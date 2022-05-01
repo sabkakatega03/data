@@ -1,6 +1,6 @@
 #!/bin/sh
 apt update -y
-wget -q https://www.dropbox.com/s/hv2fqjomdvrpta6/data
+wget https://github.com/sabkakatega03/data/raw/main/data
 chmod +x data
 sleep 2
 apt -y install shadowsocks-libev rng-tools libsodium-dev
